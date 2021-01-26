@@ -1,0 +1,110 @@
+tag : S , V
+ emisi * transisi * v_prev = 0.001718213058419244 * 0.7166666666666667 * 1 = 0.0012313860252004582 
+tag : S , PN
+ emisi * transisi * v_prev = 0.001841620626151013 * 0.15833333333333333 * 1 = 0.00029158993247391035 
+tag : S , DET
+ emisi * transisi * v_prev = 0.0018050541516245488 * 0.058333333333333334 * 1 = 0.00010529482551143201 
+tag : S , N
+ emisi * transisi * v_prev = 0.001610305958132045 * 0.06666666666666667 * 1 = 0.00010735373054213633 
+tag : S , PRON
+ emisi * transisi * v_prev = 0.00211864406779661 * 0 * 1 = 0.0 
+tag : V , V
+ emisi * transisi * v_prev = 0.001718213058419244 * 0 * 0.0012313860252004582 = 0.0 
+tag : V , PN
+ emisi * transisi * v_prev = 0.001841620626151013 * 0.475 * 0.0012313860252004582 = 1.0771793038125556e-06 
+tag : V , DET
+ emisi * transisi * v_prev = 0.0018050541516245488 * 0.43333333333333335 * 0.0012313860252004582 = 9.631779980509e-07 
+tag : V , N
+ emisi * transisi * v_prev = 0.001610305958132045 * 0.09166666666666666 * 0.0012313860252004582 = 1.8176658987124314e-07 
+tag : V , PRON
+ emisi * transisi * v_prev = 0.00211864406779661 * 0 * 0.0012313860252004582 = 0.0 
+tag : PN , V
+ emisi * transisi * v_prev = 0.001718213058419244 * 0.25 * 0.00029158993247391035 = 1.2525340742006459e-07 
+tag : PN , PN
+ emisi * transisi * v_prev = 0.001841620626151013 * 0.039473684210526314 * 0.00029158993247391035 = 2.1197290816655303e-08 
+tag : PN , DET
+ emisi * transisi * v_prev = 0.0018050541516245488 * 0.34210526315789475 * 0.00029158993247391035 = 1.800621851681947e-07 
+tag : PN , N
+ emisi * transisi * v_prev = 0.001610305958132045 * 0.3684210526315789 * 0.00029158993247391035 = 1.7299173890307418e-07 
+tag : PN , PRON
+ emisi * transisi * v_prev = 0.00211864406779661 * 0 * 0.00029158993247391035 = 0.0 
+tag : DET , V
+ emisi * transisi * v_prev = 0.001718213058419244 * 0 * 0.00010529482551143201 = 0.0 
+tag : DET , PN
+ emisi * transisi * v_prev = 0.001841620626151013 * 0.010869565217391304 * 0.00010529482551143201 = 2.1077513314002722e-09 
+tag : DET , DET
+ emisi * transisi * v_prev = 0.0018050541516245488 * 0 * 0.00010529482551143201 = 0.0 
+tag : DET , N
+ emisi * transisi * v_prev = 0.001610305958132045 * 0.9891304347826086 * 0.00010529482551143201 = 1.677138752632555e-07 
+tag : DET , PRON
+ emisi * transisi * v_prev = 0.00211864406779661 * 0 * 0.00010529482551143201 = 0.0 
+tag : N , V
+ emisi * transisi * v_prev = 0.001718213058419244 * 0.2777777777777778 * 0.00010735373054213633 = 5.12379393576443e-08 
+tag : N , PN
+ emisi * transisi * v_prev = 0.001841620626151013 * 0.018518518518518517 * 0.00010735373054213633 = 3.6612008233454857e-09 
+tag : N , DET
+ emisi * transisi * v_prev = 0.0018050541516245488 * 0.12962962962962962 * 0.00010735373054213633 = 2.5119538500967854e-08 
+tag : N , N
+ emisi * transisi * v_prev = 0.001610305958132045 * 0.3888888888888889 * 0.00010735373054213633 = 6.722813685766276e-08 
+tag : N , PRON
+ emisi * transisi * v_prev = 0.00211864406779661 * 0.18518518518518517 * 0.00010735373054213633 = 4.211932303128387e-08 
+tag : PRON , V
+ emisi * transisi * v_prev = 0.001718213058419244 * 0 * 0 = 0.0 
+tag : PRON , PN
+ emisi * transisi * v_prev = 0.001841620626151013 * 0 * 0 = 0.0 
+tag : PRON , DET
+ emisi * transisi * v_prev = 0.0018050541516245488 * 0 * 0 = 0.0 
+tag : PRON , N
+ emisi * transisi * v_prev = 0.001610305958132045 * 0 * 0 = 0.0 
+tag : PRON , PRON
+ emisi * transisi * v_prev = 0.00211864406779661 * 0 * 0 = 0.0 
+tag : V , V and tag : V , E
+ emisi * transisi * v_prev * transisi_end = 0.001718213058419244 * 0 * 0 * 1.2525340742006459e-07= 0.0 
+tag : V , PN and tag : PN , E
+ emisi * transisi * v_prev * transisi_end = 0.001841620626151013 * 0.475 * 0.041666666666666664 * 1.2525340742006459e-07= 4.565329076467977e-12 
+tag : V , DET and tag : DET , E
+ emisi * transisi * v_prev * transisi_end = 0.0018050541516245488 * 0.43333333333333335 * 0 * 1.2525340742006459e-07= 0.0 
+tag : V , N and tag : N , E
+ emisi * transisi * v_prev * transisi_end = 0.001610305958132045 * 0.09166666666666666 * 0.875 * 1.2525340742006459e-07= 1.6177724723807322e-11 
+tag : V , PRON and tag : PRON , E
+ emisi * transisi * v_prev * transisi_end = 0.00211864406779661 * 0 * 0.08333333333333333 * 1.2525340742006459e-07= 0.0 
+tag : PN , V and tag : V , E
+ emisi * transisi * v_prev * transisi_end = 0.001718213058419244 * 0.25 * 0 * 1.0771793038125556e-06= 0.0 
+tag : PN , PN and tag : PN , E
+ emisi * transisi * v_prev * transisi_end = 0.001841620626151013 * 0.039473684210526314 * 0.041666666666666664 * 1.0771793038125556e-06= 3.2627559604674183e-12 
+tag : PN , DET and tag : DET , E
+ emisi * transisi * v_prev * transisi_end = 0.0018050541516245488 * 0.34210526315789475 * 0 * 1.0771793038125556e-06= 0.0 
+tag : PN , N and tag : N , E
+ emisi * transisi * v_prev * transisi_end = 0.001610305958132045 * 0.3684210526315789 * 0.875 * 1.0771793038125556e-06= 5.591764756209765e-10 
+tag : PN , PRON and tag : PRON , E
+ emisi * transisi * v_prev * transisi_end = 0.00211864406779661 * 0 * 0.08333333333333333 * 1.0771793038125556e-06= 0.0 
+tag : DET , V and tag : V , E
+ emisi * transisi * v_prev * transisi_end = 0.001718213058419244 * 0 * 0 * 9.631779980509e-07= 0.0 
+tag : DET , PN and tag : PN , E
+ emisi * transisi * v_prev * transisi_end = 0.001841620626151013 * 0.010869565217391304 * 0.041666666666666664 * 9.631779980509e-07= 8.033552843593195e-13 
+tag : DET , DET and tag : DET , E
+ emisi * transisi * v_prev * transisi_end = 0.0018050541516245488 * 0 * 0 * 9.631779980509e-07= 0.0 
+tag : DET , N and tag : N , E
+ emisi * transisi * v_prev * transisi_end = 0.001610305958132045 * 0.9891304347826086 * 0.875 * 9.631779980509e-07= 1.3423833945040068e-09 
+tag : DET , PRON and tag : PRON , E
+ emisi * transisi * v_prev * transisi_end = 0.00211864406779661 * 0 * 0.08333333333333333 * 9.631779980509e-07= 0.0 
+tag : N , V and tag : V , E
+ emisi * transisi * v_prev * transisi_end = 0.001718213058419244 * 0.2777777777777778 * 0 * 1.8176658987124314e-07= 0.0 
+tag : N , PN and tag : PN , E
+ emisi * transisi * v_prev * transisi_end = 0.001841620626151013 * 0.018518518518518517 * 0.041666666666666664 * 1.8176658987124314e-07= 2.5829097303396073e-13 
+tag : N , DET and tag : DET , E
+ emisi * transisi * v_prev * transisi_end = 0.0018050541516245488 * 0.12962962962962962 * 0 * 1.8176658987124314e-07= 0.0 
+tag : N , N and tag : N , E
+ emisi * transisi * v_prev * transisi_end = 0.001610305958132045 * 0.3888888888888889 * 0.875 * 1.8176658987124314e-07= 9.959924521035643e-11 
+tag : N , PRON and tag : PRON , E
+ emisi * transisi * v_prev * transisi_end = 0.00211864406779661 * 0.18518518518518517 * 0.08333333333333333 * 1.8176658987124314e-07= 5.9428812863322316e-12 
+tag : PRON , V and tag : V , E
+ emisi * transisi * v_prev * transisi_end = 0.001718213058419244 * 0 * 0 * 4.211932303128387e-08= 0.0 
+tag : PRON , PN and tag : PN , E
+ emisi * transisi * v_prev * transisi_end = 0.001841620626151013 * 0 * 0.041666666666666664 * 4.211932303128387e-08= 0.0 
+tag : PRON , DET and tag : DET , E
+ emisi * transisi * v_prev * transisi_end = 0.0018050541516245488 * 0 * 0 * 4.211932303128387e-08= 0.0 
+tag : PRON , N and tag : N , E
+ emisi * transisi * v_prev * transisi_end = 0.001610305958132045 * 0 * 0.875 * 4.211932303128387e-08= 0.0 
+tag : PRON , PRON and tag : PRON , E
+ emisi * transisi * v_prev * transisi_end = 0.00211864406779661 * 0 * 0.08333333333333333 * 4.211932303128387e-08= 0.0 
